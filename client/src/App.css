@@ -1,0 +1,202 @@
+.container {
+  margin-top: 6rem;
+  color: #efeff1;
+}
+
+.card {
+  transition: 0.1s;
+  -webkit-transition: all 0.5s;
+}
+
+.card-image {
+  transition: 0.35s;
+}
+
+.card-image:hover {
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.card:hover {
+  z-index: 1;
+  box-shadow: 0 12px 20px rgba(119, 44, 232, 0.5);
+  border: none;
+  background-color: transparent;
+  -webkit-transform: translate(0, -0.5em);
+}
+
+.game-title {
+  font-weight: 700;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.game-title:hover {
+  color: #9147ff;
+  cursor: pointer;
+}
+
+.game-title.detail:hover {
+  color: white;
+  cursor: default;
+}
+
+.game-genre {
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #772ce8;
+  border-radius: 50px;
+  padding: 2px 7px;
+}
+
+.game-desc {
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.game-desc.detail {
+  word-wrap: break-word;
+  -webkit-line-clamp: 12;
+}
+
+.favorite-icon {
+  position: relative;
+  right: 0px;
+  top: -4.5px;
+  background-color: transparent;
+  font-size: 20px;
+  color: #772ce8;
+}
+
+.favorite-icon:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  right: 10px;
+  top: 200px;
+  border-radius: 50px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+
+.favorite-btn {
+  padding: 5px 8px;
+  background-color: rgba(119, 44, 232, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin: 15px 0;
+  margin-left: 8rem;
+}
+
+.favorite-btn:hover {
+  background-color: rgba(119, 44, 232, 0.8);
+}
+
+.favorite-inbtn {
+  background-color: transparent;
+  font-size: 20px;
+  color: #772ce8;
+  margin-right: 5px;
+}
+
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  background-color: #18181b;
+}
+
+.logo {
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo-name {
+  margin: 32px -13px 0;
+  background-color: transparent;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.to-favorite-btn {
+  padding: 9px 25px;
+  background-color: rgba(119, 44, 232, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.to-favorite-btn:hover {
+  background-color: rgba(119, 44, 232, 0.8);
+}
+
+.back-btn {
+  position: relative;
+  left: 50rem;
+  bottom: 3rem;
+  padding: 9px 50px;
+  background-color: rgba(119, 44, 232, 1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 5rem;
+}
+
+.back-btn:hover {
+  background-color: rgba(119, 44, 232, 0.8);
+}
+
+.nav-button {
+  background-color: transparent;
+}
+
+.link-website {
+  color: #9147ff;
+  font-size: 15px;
+}
+
+.link-website:hover {
+  color: #772ce8;
+}
+
+.detail-info {
+  color: #772ce8;
+  font-weight: bold;
+}
